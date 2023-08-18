@@ -1,0 +1,91 @@
+.SingleProject {
+  border-bottom: 0.1px solid rgb(35, 35, 35);
+}
+.SingleProjectWrapper {
+  display: flex;
+}
+
+.SingleProjectLeft {
+  padding: 20px 10px;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.SingleProjectImg {
+  width: 100%;
+  height: 350px;
+}
+.SingleProjectRight {
+  flex: 1;
+  padding: 20px 10px;
+}
+
+.SingleProjectTitle {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(green, rgb(118, 118, 205));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.SingleProjectDesc {
+  font-size: 20px;
+  font-weight: 350;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.SingleProjectLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(76, 76, 240);
+  cursor: pointer;
+}
+
+.SingleProjectLink:hover {
+  color: red;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 800px) {
+  .SingleProjectWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .SingleProjectLeft {
+    padding: 0;
+    margin: 0;
+  }
+  .SingleProjectImg {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .SingleProjectWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SingleProjectImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+  }
+  .SingleProjectTitle {
+    font-size: 22px;
+    text-align: center;
+  }
+  .SingleProjectDesc {
+    font-size: 12px;
+  }
+  .SingleProjectLink {
+    font-size: 12px;
+  }
+}
