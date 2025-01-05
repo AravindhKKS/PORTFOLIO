@@ -62,7 +62,7 @@ const Footer = () => {
             <div className="FooterDesc">
               Karuppur,
               <br />
-              Thanjavur Dist, <br /> Tamilnadu 609807.
+              Thanjavur Dist, <br /> Tamilnadu 609807...1
             </div>
           </div>
           <div className="FooterContanct">
