@@ -17,7 +17,7 @@ const Self = () => {
             <button className="selfPro">PROJECT</button>
           </Link>
           <a href="https://drive.google.com/file/d/1utsgOnwS7WdDyO2Nclgy2MngZlN8KWLO/view?usp=sharing">
-            <button className="selfRes">RESUME aravinth</button>
+            <button className="selfRes">RESUME</button>
           </a>
         </div>
       </div>
