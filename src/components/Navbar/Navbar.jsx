@@ -41,12 +41,6 @@ const Navbar = () => {
                 Certificate{" "}
               </Link>{" "}
             </div>{" "}
-            <div className="NavbarRightText">
-              {" "}
-              <Link className="link" to="/contact">
-                Contact
-              </Link>{" "}
-            </div>{" "}
           </div>
         </div>
       </div>
