@@ -16,7 +16,7 @@ const Self = () => {
           <Link style={{ textDecoration: "none" }} to="/project">
             <button className="selfPro">PROJECT</button>
           </Link>
-          <a href="https://drive.google.com/file/d/1-MIGHsLtbqD5mlD210G6FGvk2_K74uLy/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1utsgOnwS7WdDyO2Nclgy2MngZlN8KWLO/view?usp=sharing">
             <button className="selfRes">RESUME</button>
           </a>
         </div>
