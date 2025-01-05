@@ -24,7 +24,7 @@ export const ProjectItems = [
     id: 4,
     Img: "assests/project4.png",
     Link: "https://kks-social.netlify.app/",
-    Title: "Socaial-Media",
+    Title: "Social-Media",
     Desc: "Amplify your social media presence with our dynamic React front-end. Engaging interfaces and seamless interactions for an impactful social media experience.",
   },
 ];
