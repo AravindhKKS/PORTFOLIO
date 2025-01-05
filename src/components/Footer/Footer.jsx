@@ -62,13 +62,13 @@ const Footer = () => {
             <div className="FooterDesc">
               Karuppur,
               <br />
-              Thanjavur Dist, <br /> Tamilnadu 609807...1
+              Thanjavur Dist, <br /> Tamilnadu 609807.@.1
             </div>
           </div>
           <div className="FooterContanct">
             <div className="Footertitle">Contact</div>
             <div className="FooterDesc">+91 8524928800</div>
-            <div className="FooterDesc">Aravinthnatarajan16@gmail.com</div>
+            <div className="FooterDesc">aravinthnatarajan16@gmail.com</div>
           </div>
           <div className="FooterConnect">
             <div className="Icon">
