@@ -1,5 +1,6 @@
 .Footer {
   background-color: black;
+  height:20vh;
   color: white;
   border-bottom: 0.1px solid rgb(35, 35, 35);
 }
